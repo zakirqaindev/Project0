@@ -14,11 +14,13 @@ a {
   color: #333;
   text-decoration: none;
 }
-h1,h2,h3 {
- padding-bottom: 20px; 
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
 }
 p {
-  margin:10px 0:
+  margin: 10px 0;
 }
 /* Utility classes */
 .container {
@@ -33,7 +35,7 @@ p {
 .leed {
   font-size: 20px;
 }
-.btn{
+.btn {
   display: inline-block;
   font-size: 18px;
   color: #00f;
@@ -61,17 +63,16 @@ p {
   padding-top: 20px;
 }
 #navbar ul {
-  list-style: none;  
+  list-style: none;
   float: right;
 }
 #navbar ul li {
   float: left;
 }
 #navbar ul li a {
-  display:block;
+  display: block;
   padding: 20px;
   text-align: center;
-
 }
 #navbar ul li a:hover,
 #navbar ul li a.current {
@@ -95,4 +96,17 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* main section */
+/* .articles-containetr {
+  display: grid;
+  grid-gap: 5px;
+} */
+#home-article {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
 }
